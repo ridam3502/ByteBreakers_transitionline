@@ -1,7 +1,7 @@
 ### References
 
-1. M. S. Naidu, V. Kamaraju, *High Voltage Engineering*, Tata McGraw-Hill, 5th Edition.
-2. C. L. Wadhwa, *Electrical Power Systems*, New Age International Publishers.
-3. IEEE Std 4-2013, *IEEE Standard Techniques for High-Voltage Testing*.
-4. https://www.electrical4u.com/suspension-insulator/
-5. https://nptel.ac.in/courses/108105131 (NPTEL Lecture Series on High Voltage Engineering)
+1. David M. Pozar, *Microwave Engineering*, Wiley, 4th Edition.
+2. Simon Ramo, John R. Whinnery, Theodore Van Duzer, *Fields and Waves in Communication Electronics*.
+3. https://www.electronics-tutorials.ws/ – Transmission Line Theory.
+4. NPTEL Lectures – https://nptel.ac.in/courses/108101112 (Microwave Theory and Techniques)
+5. IEEE Std 315 – Graphical Symbols for Electrical and Electronics Diagrams
