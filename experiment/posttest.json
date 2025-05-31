@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In a 3-disc insulator string, which disc typically experiences the highest voltage?",
+      "answers": {
+        "a": "Top disc",
+        "b": "Middle disc",
+        "c": "Bottom disc",
+        "d": "All equally"
+      },
+      "explanations": {
+        "a": "Incorrect – not exposed to maximum stress.",
+        "b": "Incorrect – middle disc is intermediate.",
+        "c": "Correct – closest to the conductor.",
+        "d": "Incorrect – voltage is not equally distributed."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How can string efficiency be improved?",
+      "answers": {
+        "a": "By using more conductor material",
+        "b": "By reducing system voltage",
+        "c": "By installing grading rings",
+        "d": "By shortening insulator strings"
+      },
+      "explanations": {
+        "a": "Incorrect – unrelated to efficiency.",
+        "b": "Incorrect – not effective.",
+        "c": "Correct – grading rings help redistribute voltage.",
+        "d": "Incorrect – may reduce performance."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
