@@ -1,3 +1,3 @@
-## Experiment name
+## Experiment Name
 
-Voltage Distribution Across String Insulator
+Reflection Coefficient & Impedance Matching Simulator
