@@ -2,38 +2,72 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In a 3-disc insulator string, which disc typically experiences the highest voltage?",
+      "question": "Which condition will result in zero reflection in a transmission line?",
       "answers": {
-        "a": "Top disc",
-        "b": "Middle disc",
-        "c": "Bottom disc",
-        "d": "All equally"
-      },
-      "explanations": {
-        "a": "Incorrect – not exposed to maximum stress.",
-        "b": "Incorrect – middle disc is intermediate.",
-        "c": "Correct – closest to the conductor.",
-        "d": "Incorrect – voltage is not equally distributed."
+        "a": "Z_L = 0 Ω",
+        "b": "Z_L = ∞",
+        "c": "Z_L = Z_0",
+        "d": "Z_L > Z_0"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "explanations": {
+        "a": "Incorrect – a short circuit reflects all energy.",
+        "b": "Incorrect – an open circuit also reflects all energy.",
+        "c": "Correct – perfect matching results in Γ = 0.",
+        "d": "Incorrect – mismatch still causes reflections."
+      },
+      "difficulty": "intermediate"
     },
     {
-      "question": "How can string efficiency be improved?",
+      "question": "What happens to input impedance when the load is mismatched and the line is a quarter wavelength long?",
       "answers": {
-        "a": "By using more conductor material",
-        "b": "By reducing system voltage",
-        "c": "By installing grading rings",
-        "d": "By shortening insulator strings"
-      },
-      "explanations": {
-        "a": "Incorrect – unrelated to efficiency.",
-        "b": "Incorrect – not effective.",
-        "c": "Correct – grading rings help redistribute voltage.",
-        "d": "Incorrect – may reduce performance."
+        "a": "It matches the load impedance",
+        "b": "It becomes infinite",
+        "c": "It inverts the impedance",
+        "d": "It becomes zero"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "explanations": {
+        "a": "Incorrect – matching occurs only if Z_L = Z_0.",
+        "b": "Incorrect – not necessarily infinite.",
+        "c": "Correct – a quarter-wave transformer inverts Z_L/Z_0.",
+        "d": "Incorrect – zero impedance only under specific shorts."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which method can be used to reduce reflection on a transmission line?",
+      "answers": {
+        "a": "Decrease frequency",
+        "b": "Increase line length",
+        "c": "Match Z_L to Z_0",
+        "d": "Add more capacitance"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect – frequency does not eliminate reflection.",
+        "b": "Incorrect – line length does not correct mismatch.",
+        "c": "Correct – impedance matching prevents reflections.",
+        "d": "Incorrect – adding capacitance could worsen mismatch."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What role does the velocity factor play in a transmission line?",
+      "answers": {
+        "a": "It determines power loss",
+        "b": "It affects the propagation speed of signals",
+        "c": "It sets the characteristic impedance",
+        "d": "It controls return loss"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect – power loss is not directly related.",
+        "b": "Correct – velocity factor = v_signal / c.",
+        "c": "Incorrect – Z_0 depends on geometry and materials.",
+        "d": "Incorrect – return loss depends on Γ."
+      },
+      "difficulty": "intermediate"
     }
   ]
 }
