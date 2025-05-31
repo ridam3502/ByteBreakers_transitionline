@@ -2,37 +2,71 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the primary function of suspension insulators?",
+      "question": "What does the reflection coefficient (Γ) represent?",
       "answers": {
-        "a": "To measure voltage in a circuit",
-        "b": "To conduct electricity between towers",
-        "c": "To provide mechanical support and electrical insulation",
-        "d": "To convert AC to DC"
-      },
-      "explanations": {
-        "a": "Incorrect – they do not measure voltage.",
-        "b": "Incorrect – they insulate, not conduct.",
-        "c": "Correct – their role is both mechanical and electrical.",
-        "d": "Incorrect – not a rectifier."
+        "a": "The ratio of input to output voltage",
+        "b": "The amount of signal loss",
+        "c": "The ratio of reflected to incident voltage",
+        "d": "The power transferred to the load"
       },
       "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect – this describes gain or attenuation.",
+        "b": "Incorrect – return loss represents signal loss.",
+        "c": "Correct – Γ = V_reflected / V_incident.",
+        "d": "Incorrect – Γ does not represent power transfer."
+      },
       "difficulty": "beginner"
     },
     {
-      "question": "What causes non-uniform voltage distribution in insulator strings?",
+      "question": "What does a VSWR of 1 indicate?",
       "answers": {
-        "a": "Corona discharge",
-        "b": "Parasitic capacitances",
-        "c": "Resistance of conductors",
-        "d": "Thermal effects"
+        "a": "Maximum reflection",
+        "b": "Short circuit condition",
+        "c": "Perfect impedance matching",
+        "d": "Open circuit condition"
       },
+      "correctAnswer": "c",
       "explanations": {
-        "a": "Incorrect – not the main cause.",
-        "b": "Correct – due to mutual and stray capacitance.",
-        "c": "Incorrect – resistance is negligible.",
-        "d": "Incorrect – thermal effects are minor."
+        "a": "Incorrect – reflection is zero when VSWR = 1.",
+        "b": "Incorrect – short circuits lead to infinite VSWR.",
+        "c": "Correct – means Z_L = Z_0.",
+        "d": "Incorrect – open circuits also lead to high VSWR."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why do standing waves occur on a transmission line?",
+      "answers": {
+        "a": "Due to power loss in the line",
+        "b": "Due to reflections from impedance mismatch",
+        "c": "Due to temperature variations",
+        "d": "Due to signal amplification"
       },
       "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect – loss causes attenuation, not standing waves.",
+        "b": "Correct – reflections cause wave interference.",
+        "c": "Incorrect – temperature has negligible effect.",
+        "d": "Incorrect – amplification doesn’t cause standing waves."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the unit of return loss?",
+      "answers": {
+        "a": "Ohms",
+        "b": "Watts",
+        "c": "Decibels (dB)",
+        "d": "Volts"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect – Ohm is a unit of resistance.",
+        "b": "Incorrect – Power is measured in watts.",
+        "c": "Correct – Return loss is in decibels.",
+        "d": "Incorrect – Volts measure potential."
+      },
       "difficulty": "beginner"
     }
   ]
