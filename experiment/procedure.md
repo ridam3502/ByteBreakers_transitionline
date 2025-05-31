@@ -1,198 +1,50 @@
-### Procedure
-
-1. **Open the Simulation:** Launch the virtual simulator for the experiment.
-step 1: Define Parameters
-Number of insulator discs n (e.g., 3, 4, 5, 6)
-
-Total voltage V (e.g., 100 kV)
-
-Capacitance ratio α = C_t / C_d (e.g., 0.1, 0.2)
-
-Step 2: Create Equivalent Circuit
-Model each disc as a series capacitor
-
-Add stray capacitances to ground (parallel to each disc)
-
-Use nodal analysis or equivalent circuit design in MATLAB/Simulink or PSCAD
-
-Step 3: Run Simulation
-Apply total voltage V across the string
-
-Simulate voltage drop across each disc
-
-Step 4: Display Results
-Output:
-
-Voltage across each disc
-
-Graph of voltage vs. disc number
-
-Calculate string efficiency
-
-Step 5: Vary Parameters (Optional)
-Change number of discs (n)
-
-Change capacitance ratio (α)
-
-Observe how voltage distribution and string efficiency change
-
-6. Results and Graphs
-Table of Voltage Across Each Disc
-
-Plot: Voltage vs. Disc Number
-
-String Efficiency Value
-
-Compare simulation and experimental values.
-
-7. Conclusion
-Discuss:
-
-Non-uniform voltage distribution
-
-Maximum stress on bottom disc
-
-Importance of grading rings
-
-Efficiency improvements using different methods
-
-*Repeat with Different Parameters:** Change α or number of discs to study its effect on voltage distribution.
-9. **Analyze Results:** Note how voltage uniformity and string efficiency improve with various configuration
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Procedure
+
+### Step 1: Launch the Simulator
+Open the "Reflection Coefficient & Impedance Matching Simulator" through the platform interface.
+
+### Step 2: Set Parameters
+- **Z₀ (Characteristic Impedance):** e.g., 50 Ω
+- **Z_L (Load Impedance):** Real + jImaginary
+- **Frequency:** e.g., 100 MHz
+- **Line Length:** e.g., 1.5 m
+- **Velocity Factor:** e.g., 0.66 (depends on dielectric material)
+- **Incident Voltage:** e.g., 1 V peak (used for standing wave pattern)
+
+### Step 3: Review Inputs
+Verify that all parameters are physically valid and within expected ranges.
+
+### Step 4: Study Theory
+Review key equations related to Γ, VSWR, RL, Z_in, and standing wave patterns.
+
+### Step 5: Self-Estimate (Optional)
+Estimate values for:
+- Magnitude and angle of Γ
+- VSWR
+- Return Loss
+- Z_in
+
+### Step 6: Run Simulation
+Click "Start Simulation" to calculate and visualize:
+- Reflection coefficient
+- Voltage Standing Wave Ratio
+- Return Loss
+- Input Impedance
+- Wavelength and β
+- Standing wave voltage distribution
+
+### Step 7: Analyze Results
+- Observe VSWR, Γ, and Z_in.
+- View voltage variation along the line.
+- Identify matching or mismatched cases.
+
+### Step 8: Experiment Further
+Try various:
+- Load impedances (pure resistive or complex)
+- Frequencies
+- Line lengths
+- Velocity factors
+
+### Step 9: Save & Compare
+- Save experiments for history and analytics
+- Use comparison tab to visualize trends
